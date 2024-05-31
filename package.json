@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "install": "^0.13.0",
+    "npm": "^10.8.1",
+    "prompt-sync": "^4.2.0"
+  }
 }
