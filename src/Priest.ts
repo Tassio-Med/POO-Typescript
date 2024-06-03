@@ -12,4 +12,12 @@ export class Priest extends Personagem {
         this._espirito = Util.randomizar(100, 1_000);
         this._versatilidade = Util.randomizar(100, 1_000);
     }
+
+    public atacar(): string{
+        return "Ataque do  Priest";
+    }
+    public defender(atacante: Personagem): number{
+        throw new Error("Método não implementado");
+    }
+
 }
