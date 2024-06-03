@@ -1,7 +1,7 @@
-import { Warrior } from "./Warrior";
-import { Mage } from "./Mage";
-import { Personagem } from "./Personagem";
-import { Priest } from "./Priest";
+import { Mage } from "./src/Mage";
+import { Personagem } from "./src/Personagem";
+import { Priest } from "./src/Priest";
+import { Warrior } from "./src/Warrior";
 
 let mage: Personagem = new Mage("Angelo mage");
 let warrior: Personagem = new Warrior("Angelo warrior");

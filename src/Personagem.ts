@@ -1,4 +1,4 @@
-import { Util } from "./Util";
+import { Util } from "./util/Util";
 export class Personagem {
     protected _nome: string;
     protected _armadura: number;

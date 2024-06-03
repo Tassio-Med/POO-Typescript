@@ -1,5 +1,5 @@
 import { Personagem } from "./Personagem";
-import { Util } from "./Util";
+import { Util } from "./util/Util";
 
 export class Priest extends Personagem {
     private _espirito: number;

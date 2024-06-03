@@ -1,5 +1,5 @@
 import { Personagem } from "./Personagem";
-import { Util } from "./Util";
+import { Util } from "./util/Util";
 
 export class Mage extends Personagem {
     private _intelecto: number;
